@@ -1,0 +1,146 @@
+.button {
+  display: flex;
+  align-items: center;
+  border: none;
+  font-weight: 500;
+  border-radius: 4px;
+  gap: 4px;
+}
+
+.button.default {
+  background-color: #ffffff;
+  color: #606266;
+}
+
+.button.default.pressed {
+  color: #409eff;
+}
+
+.button.primary {
+  background-color: #409eff;
+  color: #ffffff;
+}
+
+.button.pressed.pressed {
+  background-color: #3a8ee6;
+}
+.button.primary.hover {
+  background-color: #66b1ff;
+}
+
+.button.success {
+  background-color: #67c23a;
+  color: #ffffff;
+}
+
+.button.success.pressed {
+  background-color: #5daf34;
+}
+.button.success.hover {
+  background-color: #85ce61;
+}
+
+.button.info {
+  background-color: #909399;
+  color: #ffffff;
+}
+
+.button.info.pressed {
+  background-color: #82848a;
+}
+.button.info.hover {
+  background-color: #a6a9ad;
+}
+
+.button.warning {
+  background-color: #e6a23c;
+  color: #ffffff;
+}
+
+.button.warning.pressed {
+  background-color: #cf9236;
+}
+.button.warning.hover {
+  background-color: #ebb563;
+}
+
+.button.danger {
+  background-color: #f56c6c;
+  color: #ffffff;
+}
+
+.button.danger.pressed {
+  background-color: #dc6161;
+}
+.button.danger.hover {
+  background-color: #f78989;
+}
+
+.button.lg {
+  padding: 9px 20px;
+  font-size: 14px;
+  line-height: 22px;
+}
+
+.button.md {
+  padding: 7px 20px;
+  font-size: 14px;
+  line-height: 22px;
+}
+
+.button.sm {
+  padding: 7px 10px;
+  font-size: 12px;
+  line-height: 18px;
+}
+
+.button.mini {
+  padding: 5px 10px;
+  font-size: 12px;
+  line-height: 18px;
+}
+
+.button.rounded {
+  border-radius: 222px;
+}
+
+.disabled {
+  opacity: 50%;
+}
+
+.icon {
+  background-color: #409eff;
+}
+.icon.pressed {
+  background-color: #3a8ee6;
+}
+.icon.hover {
+  background-color: #66b1ff;
+}
+.icon.lg {
+  width: 14px;
+  height: 14px;
+  padding: 13px;
+}
+.icon.md {
+  width: 14px;
+  height: 14px;
+  padding: 11px;
+}
+
+.icon.sm {
+  width: 12px;
+  height: 12px;
+  padding: 10px;
+}
+
+.icon.mini {
+  width: 12px;
+  height: 12px;
+  padding: 8px;
+}
+
+.button .icon {
+  padding: 0px;
+  background-color: inherit;
+}
