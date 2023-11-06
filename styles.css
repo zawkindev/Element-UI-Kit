@@ -108,15 +108,26 @@
   opacity: 50%;
 }
 
-.icon {
+.icon.button {
+  stroke: #ffffff;
+  border: none;
+  background-color: inherit;
+}
+
+.icon.button.default {
   background-color: #409eff;
 }
-.icon.pressed {
+.icon.button.pressed {
   background-color: #3a8ee6;
 }
-.icon.hover {
+.icon.button.hover {
   background-color: #66b1ff;
 }
+
+.icon.rounded {
+  border-radius: 50%;
+}
+
 .icon.lg {
   width: 14px;
   height: 14px;
@@ -127,13 +138,11 @@
   height: 14px;
   padding: 11px;
 }
-
 .icon.sm {
   width: 12px;
   height: 12px;
   padding: 10px;
 }
-
 .icon.mini {
   width: 12px;
   height: 12px;
@@ -143,4 +152,29 @@
 .button .icon {
   padding: 0px;
   background-color: inherit;
+  stroke: #ffffff;
+}
+
+
+.icon.plain {
+  border: 1px solid #dcdfe6;
+}
+
+.icon.plain.default {
+  stroke: #606266;
+  background-color: #ffffff;
+}
+.icon.plain.pressed {
+  stroke: #3a8ee6;
+  border-color: #3a8ee6;
+  background-color: #ecf5ff;
+}
+.icon.plain.hover {
+  stroke: #409eff;
+  border-color: #409eff;
+  background-color: #ecf5ff;
+}
+
+.button.plain{
+
 }
