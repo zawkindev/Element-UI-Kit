@@ -154,7 +154,13 @@
   background-color: inherit;
   stroke: #ffffff;
 }
+.button .icon.default{
+  stroke: #606266;
+}
 
+.button.plain .icon{
+  stroke: #606266;
+}
 
 .icon.plain {
   border: 1px solid #dcdfe6;
@@ -176,5 +182,7 @@
 }
 
 .button.plain{
-
+  border: 1px solid #dcdfe6;
+  background-color: #ffffff;
+  color: #606266;
 }
