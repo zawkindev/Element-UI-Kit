@@ -181,8 +181,140 @@
   background-color: #ecf5ff;
 }
 
-.button.plain{
-  border: 1px solid #dcdfe6;
-  background-color: #ffffff;
+.button.plain.default{
   color: #606266;
+  background-color: #ffffff;
+  border: 1px solid #dcdfe6;
+}
+
+.button.plain.pressed {
+  color: #3a8ee6;
+  border: 1px solid #3a8ee6;
+  background-color: #ffffff;
+}
+.button.plain.hover {
+  color: #409eff;
+  border: 1px solid #409eff;
+  background-color: #ffffff;
+}
+
+.button.plain .icon.default{
+  stroke: #606266;
+}
+.button.plain .icon.pressed{
+  stroke: #3a8ee6;
+}
+.button.plain .icon.hover{
+  stroke: #409eff;
+}
+
+.button.plain.primary.default{
+  color: #409eff;
+  background-color: #ECF5FF;
+  border: 1px solid #409eff;
+}
+
+.button.plain.primary.pressed {
+  color: #ffffff;
+  background-color: #3a8ee6;
+}
+.button.plain.primary.hover {
+  color: #ffffff;
+  background-color: #409eff;
+}
+
+.button.plain.primary .icon.default{
+  stroke: #409eff;
+}
+.button.plain.primary .icon.pressed{
+  stroke: #ffffff;
+}
+.button.plain.primary .icon.hover{
+  stroke: #ffffff;
+}
+ 
+/**/
+.button.plain.info.default{
+  color: #909399;
+  background-color: #F4F4F5;
+  border: 1px solid #909399;
+}
+
+.button.plain.info.pressed {
+  color: #ffffff;
+  background-color: #82848A;
+  border: 1px solid #82848A;
+}
+.button.plain.info.hover {
+  color: #ffffff;
+  background-color: #909399;
+  border: 1px solid #909399;
+
+}
+
+.button.plain.info .icon.default{
+  stroke: #909399;
+}
+.button.plain.info .icon.pressed{
+  stroke: #ffffff;
+}
+.button.plain.info .icon.hover{
+  stroke: #ffffff;
+} 
+
+/**/
+.button.plain.warning.default{
+  color: #E6A23C;
+  background-color: #FDF6EC;
+  border: 1px solid #E6A23C;
+}
+
+.button.plain.warning.pressed {
+  color: #ffffff;
+  background-color: #CF9236;
+  border: 1px solid #CF9236;
+}
+.button.plain.warning.hover {
+  color: #ffffff;
+  background-color: #E6A23C;
+  border: 1px solid #E6A23C;
+
+}
+
+.button.plain.warning .icon.default{
+  stroke: #e6a23c;
+}
+.button.plain.warning .icon.pressed{
+  stroke: #ffffff;
+}
+.button.plain.warning .icon.hover{
+  stroke: #ffffff;
+}
+/**/
+.button.plain.danger.default{
+  color: #F56C6C;
+  background-color: #FEF0F0;
+  border: 1px solid #F56C6C;
+}
+
+.button.plain.danger.pressed {
+  color: #ffffff;
+  background-color: #DC6161;
+  border: 1px solid #DC6161;
+}
+.button.plain.danger.hover {
+  color: #ffffff;
+  background-color: #F56C6C;
+  border: 1px solid #F56C6C;
+
+}
+
+.button.plain.danger .icon.default{
+  stroke: #F56C6C;
+}
+.button.plain.danger .icon.pressed{
+  stroke: #ffffff;
+}
+.button.plain.danger .icon.hover{
+  stroke: #ffffff;
 }
