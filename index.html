@@ -6,6 +6,9 @@
   <link rel="stylesheet" href="styles.css" />
   <style>
     .container {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-around;
       width: 80%;
       margin: auto;
     }
@@ -13,6 +16,7 @@
     .f-col {
       display: flex;
       flex-direction: column;
+      flex-wrap: wrap;
     }
 
     .f-row {
@@ -28,8 +32,8 @@
 </head>
 
 <body>
-  <div class="container">
-    <div class="">
+  <div class="container f-row">
+    <div class="f-col">
       <div>
         <button>
           <svg class="btn btn_icon btn_lg" width="12" height="13" viewBox="0 0 12 13" fill="none"
@@ -107,12 +111,12 @@
       <!-- BEGIN  -->
 
       <div class="br"></div>
-      <div style="display: flex; flex-direction: row; flex: 1 1 auto;">
+      <div style="display: flex; flex-direction: row; flex: 1 1 auto">
         <button class="btn btn_default btn_lg">Button</button>
         <button class="btn btn_default btn_lg rounded">Button</button>
       </div>
 
-      <div style="display: flex; flex-direction: row; flex: 1 1 auto;">
+      <div style="display: flex; flex-direction: row; flex: 1 1 auto">
         <button class="btn btn_default btn_md">
           <svg viewBox="0 0 12 13" fill="none" xmlns="http://www.w3.org/2000/svg">
             <path
@@ -128,7 +132,7 @@
           </svg>Button
         </button>
       </div>
-      <div style="display: flex; flex-direction: row; flex: 1 1 auto;">
+      <div style="display: flex; flex-direction: row; flex: 1 1 auto">
         <button class="btn btn_default btn_sm">
           Button
           <svg viewBox="0 0 12 13" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -147,19 +151,19 @@
         </button>
       </div>
 
-      <div style="display: flex; flex-direction: row; ">
+      <div style="display: flex; flex-direction: row">
         <button class="btn btn_default btn_mini">Button</button>
         <button class="btn btn_default btn_mini rounded">Button</button>
       </div>
       <!-- END  -->
       <!-- BEGIN  -->
       <div class="br"></div>
-      <div style="display: flex; flex-direction: row; flex: 1 1 auto;">
+      <div style="display: flex; flex-direction: row; flex: 1 1 auto">
         <button class="btn btn_primary btn_lg">Button</button>
         <button class="btn btn_primary btn_lg rounded">Button</button>
       </div>
 
-      <div style="display: flex; flex-direction: row; flex: 1 1 auto;">
+      <div style="display: flex; flex-direction: row; flex: 1 1 auto">
         <button class="btn btn_primary btn_md">
           <svg viewBox="0 0 12 13" fill="none" xmlns="http://www.w3.org/2000/svg">
             <path
@@ -175,7 +179,7 @@
           </svg>Button
         </button>
       </div>
-      <div style="display: flex; flex-direction: row; flex: 1 1 auto;">
+      <div style="display: flex; flex-direction: row; flex: 1 1 auto">
         <button class="btn btn_primary btn_sm">
           Button
           <svg viewBox="0 0 12 13" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -194,21 +198,20 @@
         </button>
       </div>
 
-      <div style="display: flex; flex-direction: row; ">
+      <div style="display: flex; flex-direction: row">
         <button class="btn btn_primary btn_mini">Button</button>
         <button class="btn btn_primary btn_mini rounded">Button</button>
       </div>
       <!-- END  -->
 
-
       <!-- BEGIN  -->
       <div class="br"></div>
-      <div style="display: flex; flex-direction: row; flex: 1 1 auto;">
+      <div style="display: flex; flex-direction: row; flex: 1 1 auto">
         <button class="btn btn_success btn_lg">Button</button>
         <button class="btn btn_success btn_lg rounded">Button</button>
       </div>
 
-      <div style="display: flex; flex-direction: row; flex: 1 1 auto;">
+      <div style="display: flex; flex-direction: row; flex: 1 1 auto">
         <button class="btn btn_success btn_md">
           <svg viewBox="0 0 12 13" fill="none" xmlns="http://www.w3.org/2000/svg">
             <path
@@ -224,7 +227,7 @@
           </svg>Button
         </button>
       </div>
-      <div style="display: flex; flex-direction: row; flex: 1 1 auto;">
+      <div style="display: flex; flex-direction: row; flex: 1 1 auto">
         <button class="btn btn_success btn_sm">
           Button
           <svg viewBox="0 0 12 13" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -243,24 +246,20 @@
         </button>
       </div>
 
-      <div style="display: flex; flex-direction: row; ">
+      <div style="display: flex; flex-direction: row">
         <button class="btn btn_success btn_mini">Button</button>
         <button class="btn btn_success btn_mini rounded">Button</button>
       </div>
       <!-- END  -->
 
-
-
-
-
       <!-- BEGIN  -->
       <div class="br"></div>
-      <div style="display: flex; flex-direction: row; flex: 1 1 auto;">
+      <div style="display: flex; flex-direction: row; flex: 1 1 auto">
         <button class="btn btn_info btn_lg">Button</button>
         <button class="btn btn_info btn_lg rounded">Button</button>
       </div>
 
-      <div style="display: flex; flex-direction: row; flex: 1 1 auto;">
+      <div style="display: flex; flex-direction: row; flex: 1 1 auto">
         <button class="btn btn_info btn_md">
           <svg viewBox="0 0 12 13" fill="none" xmlns="http://www.w3.org/2000/svg">
             <path
@@ -276,7 +275,7 @@
           </svg>Button
         </button>
       </div>
-      <div style="display: flex; flex-direction: row; flex: 1 1 auto;">
+      <div style="display: flex; flex-direction: row; flex: 1 1 auto">
         <button class="btn btn_info btn_sm">
           Button
           <svg viewBox="0 0 12 13" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -295,21 +294,20 @@
         </button>
       </div>
 
-      <div style="display: flex; flex-direction: row; ">
+      <div style="display: flex; flex-direction: row">
         <button class="btn btn_info btn_mini">Button</button>
         <button class="btn btn_info btn_mini rounded">Button</button>
       </div>
       <!-- END  -->
 
-
       <!-- BEGIN  -->
       <div class="br"></div>
-      <div style="display: flex; flex-direction: row; flex: 1 1 auto;">
+      <div style="display: flex; flex-direction: row; flex: 1 1 auto">
         <button class="btn btn_warning btn_lg">Button</button>
         <button class="btn btn_warning btn_lg rounded">Button</button>
       </div>
 
-      <div style="display: flex; flex-direction: row; flex: 1 1 auto;">
+      <div style="display: flex; flex-direction: row; flex: 1 1 auto">
         <button class="btn btn_warning btn_md">
           <svg viewBox="0 0 12 13" fill="none" xmlns="http://www.w3.org/2000/svg">
             <path
@@ -325,7 +323,7 @@
           </svg>Button
         </button>
       </div>
-      <div style="display: flex; flex-direction: row; flex: 1 1 auto;">
+      <div style="display: flex; flex-direction: row; flex: 1 1 auto">
         <button class="btn btn_warning btn_sm">
           Button
           <svg viewBox="0 0 12 13" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -344,21 +342,20 @@
         </button>
       </div>
 
-      <div style="display: flex; flex-direction: row; ">
+      <div style="display: flex; flex-direction: row">
         <button class="btn btn_warning btn_mini">Button</button>
         <button class="btn btn_warning btn_mini rounded">Button</button>
       </div>
       <!-- END  -->
 
-
       <!-- BEGIN  -->
       <div class="br"></div>
-      <div style="display: flex; flex-direction: row; flex: 1 1 auto;">
+      <div style="display: flex; flex-direction: row; flex: 1 1 auto">
         <button class="btn btn_danger btn_lg">Button</button>
         <button class="btn btn_danger btn_lg rounded">Button</button>
       </div>
 
-      <div style="display: flex; flex-direction: row; flex: 1 1 auto;">
+      <div style="display: flex; flex-direction: row; flex: 1 1 auto">
         <button class="btn btn_danger btn_md">
           <svg viewBox="0 0 12 13" fill="none" xmlns="http://www.w3.org/2000/svg">
             <path
@@ -374,7 +371,7 @@
           </svg>Button
         </button>
       </div>
-      <div style="display: flex; flex-direction: row; flex: 1 1 auto;">
+      <div style="display: flex; flex-direction: row; flex: 1 1 auto">
         <button class="btn btn_danger btn_sm">
           Button
           <svg viewBox="0 0 12 13" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -393,15 +390,378 @@
         </button>
       </div>
 
-      <div style="display: flex; flex-direction: row; ">
+      <div style="display: flex; flex-direction: row">
         <button class="btn btn_danger btn_mini">Button</button>
         <button class="btn btn_danger btn_mini rounded">Button</button>
       </div>
-      <!-- END  -->
-
-
-
     </div>
+    <!-- END  -->
+    <div class="f-col">
+      <div class="f-row">
+        <button class="btn btn_icon btn_lg plain">
+          <svg width="12" height="13" viewBox="0 0 12 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path
+              d="M11.203 3.40446C11.0782 3.22085 10.9091 3.06445 10.7049 2.95097L6.73972 0.746497C6.28205 0.492053 5.71817 0.492053 5.2605 0.746497L1.29528 2.95097C0.837603 3.20541 0.555664 3.67564 0.555664 4.18453V8.59346C0.555664 9.10235 0.837603 9.57258 1.29528 9.82703L5.2605 12.0315C5.71817 12.2859 6.28205 12.2859 6.73972 12.0315L10.7049 9.82703C11.1626 9.57258 11.4446 9.10235 11.4446 8.59347V6.389M11.203 3.40446C11.358 3.63254 11.4446 3.9026 11.4446 4.18453V6.389M11.203 3.40446L6.47256 6.25325M11.4446 6.389L6.73972 9.10205"
+              stroke="" stroke-linecap="round" stroke-linejoin="round" />
+          </svg>
+        </button>
+        <button class="btn btn_icon btn_lg plain rounded">
+          <svg width="12" height="13" viewBox="0 0 12 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path
+              d="M11.203 3.40446C11.0782 3.22085 10.9091 3.06445 10.7049 2.95097L6.73972 0.746497C6.28205 0.492053 5.71817 0.492053 5.2605 0.746497L1.29528 2.95097C0.837603 3.20541 0.555664 3.67564 0.555664 4.18453V8.59346C0.555664 9.10235 0.837603 9.57258 1.29528 9.82703L5.2605 12.0315C5.71817 12.2859 6.28205 12.2859 6.73972 12.0315L10.7049 9.82703C11.1626 9.57258 11.4446 9.10235 11.4446 8.59347V6.389M11.203 3.40446C11.358 3.63254 11.4446 3.9026 11.4446 4.18453V6.389M11.203 3.40446L6.47256 6.25325M11.4446 6.389L6.73972 9.10205"
+              stroke="" stroke-linecap="round" stroke-linejoin="round" />
+          </svg>
+        </button>
+      </div>
+      <div class="f-row">
+        <button class="btn btn_icon plain btn_md">
+          <svg width="12" height="13" viewBox="0 0 12 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path
+              d="M11.203 3.40446C11.0782 3.22085 10.9091 3.06445 10.7049 2.95097L6.73972 0.746497C6.28205 0.492053 5.71817 0.492053 5.2605 0.746497L1.29528 2.95097C0.837603 3.20541 0.555664 3.67564 0.555664 4.18453V8.59346C0.555664 9.10235 0.837603 9.57258 1.29528 9.82703L5.2605 12.0315C5.71817 12.2859 6.28205 12.2859 6.73972 12.0315L10.7049 9.82703C11.1626 9.57258 11.4446 9.10235 11.4446 8.59347V6.389M11.203 3.40446C11.358 3.63254 11.4446 3.9026 11.4446 4.18453V6.389M11.203 3.40446L6.47256 6.25325M11.4446 6.389L6.73972 9.10205"
+              stroke="" stroke-linecap="round" stroke-linejoin="round" />
+          </svg>
+        </button>
+        <button class="btn btn_icon btn_md plain rounded">
+          <svg width="12" height="13" viewBox="0 0 12 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path
+              d="M11.203 3.40446C11.0782 3.22085 10.9091 3.06445 10.7049 2.95097L6.73972 0.746497C6.28205 0.492053 5.71817 0.492053 5.2605 0.746497L1.29528 2.95097C0.837603 3.20541 0.555664 3.67564 0.555664 4.18453V8.59346C0.555664 9.10235 0.837603 9.57258 1.29528 9.82703L5.2605 12.0315C5.71817 12.2859 6.28205 12.2859 6.73972 12.0315L10.7049 9.82703C11.1626 9.57258 11.4446 9.10235 11.4446 8.59347V6.389M11.203 3.40446C11.358 3.63254 11.4446 3.9026 11.4446 4.18453V6.389M11.203 3.40446L6.47256 6.25325M11.4446 6.389L6.73972 9.10205"
+              stroke="" stroke-linecap="round" stroke-linejoin="round" />
+          </svg>
+        </button>
+      </div>
+      <div class="f-row">
+        <button class="btn btn_icon plain btn_sm">
+          <svg width="12" height="13" viewBox="0 0 12 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path
+              d="M11.203 3.40446C11.0782 3.22085 10.9091 3.06445 10.7049 2.95097L6.73972 0.746497C6.28205 0.492053 5.71817 0.492053 5.2605 0.746497L1.29528 2.95097C0.837603 3.20541 0.555664 3.67564 0.555664 4.18453V8.59346C0.555664 9.10235 0.837603 9.57258 1.29528 9.82703L5.2605 12.0315C5.71817 12.2859 6.28205 12.2859 6.73972 12.0315L10.7049 9.82703C11.1626 9.57258 11.4446 9.10235 11.4446 8.59347V6.389M11.203 3.40446C11.358 3.63254 11.4446 3.9026 11.4446 4.18453V6.389M11.203 3.40446L6.47256 6.25325M11.4446 6.389L6.73972 9.10205"
+              stroke="" stroke-linecap="round" stroke-linejoin="round" />
+          </svg>
+        </button>
+        <button class="btn btn_icon btn_sm plain rounded">
+          <svg width="12" height="13" viewBox="0 0 12 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path
+              d="M11.203 3.40446C11.0782 3.22085 10.9091 3.06445 10.7049 2.95097L6.73972 0.746497C6.28205 0.492053 5.71817 0.492053 5.2605 0.746497L1.29528 2.95097C0.837603 3.20541 0.555664 3.67564 0.555664 4.18453V8.59346C0.555664 9.10235 0.837603 9.57258 1.29528 9.82703L5.2605 12.0315C5.71817 12.2859 6.28205 12.2859 6.73972 12.0315L10.7049 9.82703C11.1626 9.57258 11.4446 9.10235 11.4446 8.59347V6.389M11.203 3.40446C11.358 3.63254 11.4446 3.9026 11.4446 4.18453V6.389M11.203 3.40446L6.47256 6.25325M11.4446 6.389L6.73972 9.10205"
+              stroke="" stroke-linecap="round" stroke-linejoin="round" />
+          </svg>
+        </button>
+      </div>
+
+      <div class="f-row">
+        <button class="btn btn_icon plain btn_mini">
+          <svg width="12" height="13" viewBox="0 0 12 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path
+              d="M11.203 3.40446C11.0782 3.22085 10.9091 3.06445 10.7049 2.95097L6.73972 0.746497C6.28205 0.492053 5.71817 0.492053 5.2605 0.746497L1.29528 2.95097C0.837603 3.20541 0.555664 3.67564 0.555664 4.18453V8.59346C0.555664 9.10235 0.837603 9.57258 1.29528 9.82703L5.2605 12.0315C5.71817 12.2859 6.28205 12.2859 6.73972 12.0315L10.7049 9.82703C11.1626 9.57258 11.4446 9.10235 11.4446 8.59347V6.389M11.203 3.40446C11.358 3.63254 11.4446 3.9026 11.4446 4.18453V6.389M11.203 3.40446L6.47256 6.25325M11.4446 6.389L6.73972 9.10205"
+              stroke="" stroke-linecap="round" stroke-linejoin="round" />
+          </svg>
+        </button>
+        <button class="btn btn_icon btn_mini plain rounded">
+          <svg width="12" height="13" viewBox="0 0 12 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path
+              d="M11.203 3.40446C11.0782 3.22085 10.9091 3.06445 10.7049 2.95097L6.73972 0.746497C6.28205 0.492053 5.71817 0.492053 5.2605 0.746497L1.29528 2.95097C0.837603 3.20541 0.555664 3.67564 0.555664 4.18453V8.59346C0.555664 9.10235 0.837603 9.57258 1.29528 9.82703L5.2605 12.0315C5.71817 12.2859 6.28205 12.2859 6.73972 12.0315L10.7049 9.82703C11.1626 9.57258 11.4446 9.10235 11.4446 8.59347V6.389M11.203 3.40446C11.358 3.63254 11.4446 3.9026 11.4446 4.18453V6.389M11.203 3.40446L6.47256 6.25325M11.4446 6.389L6.73972 9.10205"
+              stroke="" stroke-linecap="round" stroke-linejoin="round" />
+          </svg>
+        </button>
+      </div>
+
+      <!-- BEGIN -->
+      <div class="br"></div>
+      <div class="f-col">
+        <div style="display: flex; flex-direction: row; flex: 1 1 auto">
+          <button class="btn btn_default plain btn_lg">Button</button>
+          <button class="btn btn_default plain btn_lg rounded">Button</button>
+        </div>
+        <div style="display: flex; flex-direction: row; flex: 1 1 auto">
+          <button class="btn btn_default plain btn_md">
+            <svg width="12" height="13" viewBox="0 0 12 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path
+                d="M11.203 3.40446C11.0782 3.22085 10.9091 3.06445 10.7049 2.95097L6.73972 0.746497C6.28205 0.492053 5.71817 0.492053 5.2605 0.746497L1.29528 2.95097C0.837603 3.20541 0.555664 3.67564 0.555664 4.18453V8.59346C0.555664 9.10235 0.837603 9.57258 1.29528 9.82703L5.2605 12.0315C5.71817 12.2859 6.28205 12.2859 6.73972 12.0315L10.7049 9.82703C11.1626 9.57258 11.4446 9.10235 11.4446 8.59347V6.389M11.203 3.40446C11.358 3.63254 11.4446 3.9026 11.4446 4.18453V6.389M11.203 3.40446L6.47256 6.25325M11.4446 6.389L6.73972 9.10205"
+                stroke="" stroke-linecap="round" stroke-linejoin="round" />
+            </svg>Button
+          </button>
+          <button class="btn btn_default plain btn_md rounded">
+            <svg width="12" height="13" viewBox="0 0 12 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path
+                d="M11.203 3.40446C11.0782 3.22085 10.9091 3.06445 10.7049 2.95097L6.73972 0.746497C6.28205 0.492053 5.71817 0.492053 5.2605 0.746497L1.29528 2.95097C0.837603 3.20541 0.555664 3.67564 0.555664 4.18453V8.59346C0.555664 9.10235 0.837603 9.57258 1.29528 9.82703L5.2605 12.0315C5.71817 12.2859 6.28205 12.2859 6.73972 12.0315L10.7049 9.82703C11.1626 9.57258 11.4446 9.10235 11.4446 8.59347V6.389M11.203 3.40446C11.358 3.63254 11.4446 3.9026 11.4446 4.18453V6.389M11.203 3.40446L6.47256 6.25325M11.4446 6.389L6.73972 9.10205"
+                stroke="" stroke-linecap="round" stroke-linejoin="round" />
+            </svg>Button
+          </button>
+        </div>
+        <div style="display: flex; flex-direction: row; flex: 1 1 auto">
+          <button class="btn btn_default plain btn_sm">
+            Button<svg width="12" height="13" viewBox="0 0 12 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path
+                d="M11.203 3.40446C11.0782 3.22085 10.9091 3.06445 10.7049 2.95097L6.73972 0.746497C6.28205 0.492053 5.71817 0.492053 5.2605 0.746497L1.29528 2.95097C0.837603 3.20541 0.555664 3.67564 0.555664 4.18453V8.59346C0.555664 9.10235 0.837603 9.57258 1.29528 9.82703L5.2605 12.0315C5.71817 12.2859 6.28205 12.2859 6.73972 12.0315L10.7049 9.82703C11.1626 9.57258 11.4446 9.10235 11.4446 8.59347V6.389M11.203 3.40446C11.358 3.63254 11.4446 3.9026 11.4446 4.18453V6.389M11.203 3.40446L6.47256 6.25325M11.4446 6.389L6.73972 9.10205"
+                stroke="" stroke-linecap="round" stroke-linejoin="round" />
+            </svg>
+          </button>
+          <button class="btn btn_default plain btn_sm rounded">
+            Button
+            <svg width="12" height="13" viewBox="0 0 12 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path
+                d="M11.203 3.40446C11.0782 3.22085 10.9091 3.06445 10.7049 2.95097L6.73972 0.746497C6.28205 0.492053 5.71817 0.492053 5.2605 0.746497L1.29528 2.95097C0.837603 3.20541 0.555664 3.67564 0.555664 4.18453V8.59346C0.555664 9.10235 0.837603 9.57258 1.29528 9.82703L5.2605 12.0315C5.71817 12.2859 6.28205 12.2859 6.73972 12.0315L10.7049 9.82703C11.1626 9.57258 11.4446 9.10235 11.4446 8.59347V6.389M11.203 3.40446C11.358 3.63254 11.4446 3.9026 11.4446 4.18453V6.389M11.203 3.40446L6.47256 6.25325M11.4446 6.389L6.73972 9.10205"
+                stroke="" stroke-linecap="round" stroke-linejoin="round" />
+            </svg>
+          </button>
+        </div>
+
+        <div style="display: flex; flex-direction: row; flex: 1 1 auto">
+          <button class="btn btn_default plain btn_mini">Button</button>
+          <button class="btn btn_default plain btn_mini rounded">
+            Button
+          </button>
+        </div>
+      </div>
+      <!-- END -->
+
+      <!-- BEGIN -->
+      <div class="br"></div>
+      <div class="f-col">
+        <div style="display: flex; flex-direction: row; flex: 1 1 auto">
+          <button class="btn btn_primary plain btn_lg">Button</button>
+          <button class="btn btn_primary plain btn_lg rounded">Button</button>
+        </div>
+        <div style="display: flex; flex-direction: row; flex: 1 1 auto">
+          <button class="btn btn_primary plain btn_md">
+            <svg width="12" height="13" viewBox="0 0 12 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path
+                d="M11.203 3.40446C11.0782 3.22085 10.9091 3.06445 10.7049 2.95097L6.73972 0.746497C6.28205 0.492053 5.71817 0.492053 5.2605 0.746497L1.29528 2.95097C0.837603 3.20541 0.555664 3.67564 0.555664 4.18453V8.59346C0.555664 9.10235 0.837603 9.57258 1.29528 9.82703L5.2605 12.0315C5.71817 12.2859 6.28205 12.2859 6.73972 12.0315L10.7049 9.82703C11.1626 9.57258 11.4446 9.10235 11.4446 8.59347V6.389M11.203 3.40446C11.358 3.63254 11.4446 3.9026 11.4446 4.18453V6.389M11.203 3.40446L6.47256 6.25325M11.4446 6.389L6.73972 9.10205"
+                stroke="" stroke-linecap="round" stroke-linejoin="round" />
+            </svg>Button
+          </button>
+          <button class="btn btn_primary plain btn_md rounded">
+            <svg width="12" height="13" viewBox="0 0 12 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path
+                d="M11.203 3.40446C11.0782 3.22085 10.9091 3.06445 10.7049 2.95097L6.73972 0.746497C6.28205 0.492053 5.71817 0.492053 5.2605 0.746497L1.29528 2.95097C0.837603 3.20541 0.555664 3.67564 0.555664 4.18453V8.59346C0.555664 9.10235 0.837603 9.57258 1.29528 9.82703L5.2605 12.0315C5.71817 12.2859 6.28205 12.2859 6.73972 12.0315L10.7049 9.82703C11.1626 9.57258 11.4446 9.10235 11.4446 8.59347V6.389M11.203 3.40446C11.358 3.63254 11.4446 3.9026 11.4446 4.18453V6.389M11.203 3.40446L6.47256 6.25325M11.4446 6.389L6.73972 9.10205"
+                stroke="" stroke-linecap="round" stroke-linejoin="round" />
+            </svg>Button
+          </button>
+        </div>
+        <div style="display: flex; flex-direction: row; flex: 1 1 auto">
+          <button class="btn btn_primary plain btn_sm">
+            Button<svg width="12" height="13" viewBox="0 0 12 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path
+                d="M11.203 3.40446C11.0782 3.22085 10.9091 3.06445 10.7049 2.95097L6.73972 0.746497C6.28205 0.492053 5.71817 0.492053 5.2605 0.746497L1.29528 2.95097C0.837603 3.20541 0.555664 3.67564 0.555664 4.18453V8.59346C0.555664 9.10235 0.837603 9.57258 1.29528 9.82703L5.2605 12.0315C5.71817 12.2859 6.28205 12.2859 6.73972 12.0315L10.7049 9.82703C11.1626 9.57258 11.4446 9.10235 11.4446 8.59347V6.389M11.203 3.40446C11.358 3.63254 11.4446 3.9026 11.4446 4.18453V6.389M11.203 3.40446L6.47256 6.25325M11.4446 6.389L6.73972 9.10205"
+                stroke="" stroke-linecap="round" stroke-linejoin="round" />
+            </svg>
+          </button>
+          <button class="btn btn_primary plain btn_sm rounded">
+            Button
+            <svg width="12" height="13" viewBox="0 0 12 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path
+                d="M11.203 3.40446C11.0782 3.22085 10.9091 3.06445 10.7049 2.95097L6.73972 0.746497C6.28205 0.492053 5.71817 0.492053 5.2605 0.746497L1.29528 2.95097C0.837603 3.20541 0.555664 3.67564 0.555664 4.18453V8.59346C0.555664 9.10235 0.837603 9.57258 1.29528 9.82703L5.2605 12.0315C5.71817 12.2859 6.28205 12.2859 6.73972 12.0315L10.7049 9.82703C11.1626 9.57258 11.4446 9.10235 11.4446 8.59347V6.389M11.203 3.40446C11.358 3.63254 11.4446 3.9026 11.4446 4.18453V6.389M11.203 3.40446L6.47256 6.25325M11.4446 6.389L6.73972 9.10205"
+                stroke="" stroke-linecap="round" stroke-linejoin="round" />
+            </svg>
+          </button>
+        </div>
+
+        <div style="display: flex; flex-direction: row; flex: 1 1 auto">
+          <button class="btn btn_primary plain btn_mini">Button</button>
+          <button class="btn btn_primary plain btn_mini rounded">
+            Button
+          </button>
+        </div>
+      </div>
+      <!-- END -->
+
+      <!-- BEGIN -->
+      <div class="br"></div>
+      <div class="f-col">
+        <div style="display: flex; flex-direction: row; flex: 1 1 auto">
+          <button class="btn btn_success plain btn_lg">Button</button>
+          <button class="btn btn_success plain btn_lg rounded">Button</button>
+        </div>
+        <div style="display: flex; flex-direction: row; flex: 1 1 auto">
+          <button class="btn btn_success plain btn_md">
+            <svg width="12" height="13" viewBox="0 0 12 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path
+                d="M11.203 3.40446C11.0782 3.22085 10.9091 3.06445 10.7049 2.95097L6.73972 0.746497C6.28205 0.492053 5.71817 0.492053 5.2605 0.746497L1.29528 2.95097C0.837603 3.20541 0.555664 3.67564 0.555664 4.18453V8.59346C0.555664 9.10235 0.837603 9.57258 1.29528 9.82703L5.2605 12.0315C5.71817 12.2859 6.28205 12.2859 6.73972 12.0315L10.7049 9.82703C11.1626 9.57258 11.4446 9.10235 11.4446 8.59347V6.389M11.203 3.40446C11.358 3.63254 11.4446 3.9026 11.4446 4.18453V6.389M11.203 3.40446L6.47256 6.25325M11.4446 6.389L6.73972 9.10205"
+                stroke="" stroke-linecap="round" stroke-linejoin="round" />
+            </svg>Button
+          </button>
+          <button class="btn btn_success plain btn_md rounded">
+            <svg width="12" height="13" viewBox="0 0 12 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path
+                d="M11.203 3.40446C11.0782 3.22085 10.9091 3.06445 10.7049 2.95097L6.73972 0.746497C6.28205 0.492053 5.71817 0.492053 5.2605 0.746497L1.29528 2.95097C0.837603 3.20541 0.555664 3.67564 0.555664 4.18453V8.59346C0.555664 9.10235 0.837603 9.57258 1.29528 9.82703L5.2605 12.0315C5.71817 12.2859 6.28205 12.2859 6.73972 12.0315L10.7049 9.82703C11.1626 9.57258 11.4446 9.10235 11.4446 8.59347V6.389M11.203 3.40446C11.358 3.63254 11.4446 3.9026 11.4446 4.18453V6.389M11.203 3.40446L6.47256 6.25325M11.4446 6.389L6.73972 9.10205"
+                stroke="" stroke-linecap="round" stroke-linejoin="round" />
+            </svg>Button
+          </button>
+        </div>
+        <div style="display: flex; flex-direction: row; flex: 1 1 auto">
+          <button class="btn btn_success plain btn_sm">
+            Button<svg width="12" height="13" viewBox="0 0 12 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path
+                d="M11.203 3.40446C11.0782 3.22085 10.9091 3.06445 10.7049 2.95097L6.73972 0.746497C6.28205 0.492053 5.71817 0.492053 5.2605 0.746497L1.29528 2.95097C0.837603 3.20541 0.555664 3.67564 0.555664 4.18453V8.59346C0.555664 9.10235 0.837603 9.57258 1.29528 9.82703L5.2605 12.0315C5.71817 12.2859 6.28205 12.2859 6.73972 12.0315L10.7049 9.82703C11.1626 9.57258 11.4446 9.10235 11.4446 8.59347V6.389M11.203 3.40446C11.358 3.63254 11.4446 3.9026 11.4446 4.18453V6.389M11.203 3.40446L6.47256 6.25325M11.4446 6.389L6.73972 9.10205"
+                stroke="" stroke-linecap="round" stroke-linejoin="round" />
+            </svg>
+          </button>
+          <button class="btn btn_success plain btn_sm rounded">
+            Button
+            <svg width="12" height="13" viewBox="0 0 12 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path
+                d="M11.203 3.40446C11.0782 3.22085 10.9091 3.06445 10.7049 2.95097L6.73972 0.746497C6.28205 0.492053 5.71817 0.492053 5.2605 0.746497L1.29528 2.95097C0.837603 3.20541 0.555664 3.67564 0.555664 4.18453V8.59346C0.555664 9.10235 0.837603 9.57258 1.29528 9.82703L5.2605 12.0315C5.71817 12.2859 6.28205 12.2859 6.73972 12.0315L10.7049 9.82703C11.1626 9.57258 11.4446 9.10235 11.4446 8.59347V6.389M11.203 3.40446C11.358 3.63254 11.4446 3.9026 11.4446 4.18453V6.389M11.203 3.40446L6.47256 6.25325M11.4446 6.389L6.73972 9.10205"
+                stroke="" stroke-linecap="round" stroke-linejoin="round" />
+            </svg>
+          </button>
+        </div>
+
+        <div style="display: flex; flex-direction: row; flex: 1 1 auto">
+          <button class="btn btn_success plain btn_mini">Button</button>
+          <button class="btn btn_success plain btn_mini rounded">
+            Button
+          </button>
+        </div>
+      </div>
+      <!-- END -->
+
+      <!-- BEGIN -->
+      <div class="br"></div>
+      <div class="f-col">
+        <div style="display: flex; flex-direction: row; flex: 1 1 auto">
+          <button class="btn btn_info plain btn_lg">Button</button>
+          <button class="btn btn_info plain btn_lg rounded">Button</button>
+        </div>
+        <div style="display: flex; flex-direction: row; flex: 1 1 auto">
+          <button class="btn btn_info plain btn_md">
+            <svg width="12" height="13" viewBox="0 0 12 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path
+                d="M11.203 3.40446C11.0782 3.22085 10.9091 3.06445 10.7049 2.95097L6.73972 0.746497C6.28205 0.492053 5.71817 0.492053 5.2605 0.746497L1.29528 2.95097C0.837603 3.20541 0.555664 3.67564 0.555664 4.18453V8.59346C0.555664 9.10235 0.837603 9.57258 1.29528 9.82703L5.2605 12.0315C5.71817 12.2859 6.28205 12.2859 6.73972 12.0315L10.7049 9.82703C11.1626 9.57258 11.4446 9.10235 11.4446 8.59347V6.389M11.203 3.40446C11.358 3.63254 11.4446 3.9026 11.4446 4.18453V6.389M11.203 3.40446L6.47256 6.25325M11.4446 6.389L6.73972 9.10205"
+                stroke="" stroke-linecap="round" stroke-linejoin="round" />
+            </svg>Button
+          </button>
+          <button class="btn btn_info plain btn_md rounded">
+            <svg width="12" height="13" viewBox="0 0 12 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path
+                d="M11.203 3.40446C11.0782 3.22085 10.9091 3.06445 10.7049 2.95097L6.73972 0.746497C6.28205 0.492053 5.71817 0.492053 5.2605 0.746497L1.29528 2.95097C0.837603 3.20541 0.555664 3.67564 0.555664 4.18453V8.59346C0.555664 9.10235 0.837603 9.57258 1.29528 9.82703L5.2605 12.0315C5.71817 12.2859 6.28205 12.2859 6.73972 12.0315L10.7049 9.82703C11.1626 9.57258 11.4446 9.10235 11.4446 8.59347V6.389M11.203 3.40446C11.358 3.63254 11.4446 3.9026 11.4446 4.18453V6.389M11.203 3.40446L6.47256 6.25325M11.4446 6.389L6.73972 9.10205"
+                stroke="" stroke-linecap="round" stroke-linejoin="round" />
+            </svg>Button
+          </button>
+        </div>
+        <div style="display: flex; flex-direction: row; flex: 1 1 auto">
+          <button class="btn btn_info plain btn_sm">
+            Button<svg width="12" height="13" viewBox="0 0 12 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path
+                d="M11.203 3.40446C11.0782 3.22085 10.9091 3.06445 10.7049 2.95097L6.73972 0.746497C6.28205 0.492053 5.71817 0.492053 5.2605 0.746497L1.29528 2.95097C0.837603 3.20541 0.555664 3.67564 0.555664 4.18453V8.59346C0.555664 9.10235 0.837603 9.57258 1.29528 9.82703L5.2605 12.0315C5.71817 12.2859 6.28205 12.2859 6.73972 12.0315L10.7049 9.82703C11.1626 9.57258 11.4446 9.10235 11.4446 8.59347V6.389M11.203 3.40446C11.358 3.63254 11.4446 3.9026 11.4446 4.18453V6.389M11.203 3.40446L6.47256 6.25325M11.4446 6.389L6.73972 9.10205"
+                stroke="" stroke-linecap="round" stroke-linejoin="round" />
+            </svg>
+          </button>
+          <button class="btn btn_info plain btn_sm rounded">
+            Button
+            <svg width="12" height="13" viewBox="0 0 12 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path
+                d="M11.203 3.40446C11.0782 3.22085 10.9091 3.06445 10.7049 2.95097L6.73972 0.746497C6.28205 0.492053 5.71817 0.492053 5.2605 0.746497L1.29528 2.95097C0.837603 3.20541 0.555664 3.67564 0.555664 4.18453V8.59346C0.555664 9.10235 0.837603 9.57258 1.29528 9.82703L5.2605 12.0315C5.71817 12.2859 6.28205 12.2859 6.73972 12.0315L10.7049 9.82703C11.1626 9.57258 11.4446 9.10235 11.4446 8.59347V6.389M11.203 3.40446C11.358 3.63254 11.4446 3.9026 11.4446 4.18453V6.389M11.203 3.40446L6.47256 6.25325M11.4446 6.389L6.73972 9.10205"
+                stroke="" stroke-linecap="round" stroke-linejoin="round" />
+            </svg>
+          </button>
+        </div>
+
+        <div style="display: flex; flex-direction: row; flex: 1 1 auto">
+          <button class="btn btn_info plain btn_mini">Button</button>
+          <button class="btn btn_info plain btn_mini rounded">Button</button>
+        </div>
+      </div>
+      <!-- END -->
+
+      <!-- BEGIN -->
+      <div class="br"></div>
+      <div class="f-col">
+        <div style="display: flex; flex-direction: row; flex: 1 1 auto">
+          <button class="btn btn_warning plain btn_lg">Button</button>
+          <button class="btn btn_warning plain btn_lg rounded">Button</button>
+        </div>
+        <div style="display: flex; flex-direction: row; flex: 1 1 auto">
+          <button class="btn btn_warning plain btn_md">
+            <svg width="12" height="13" viewBox="0 0 12 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path
+                d="M11.203 3.40446C11.0782 3.22085 10.9091 3.06445 10.7049 2.95097L6.73972 0.746497C6.28205 0.492053 5.71817 0.492053 5.2605 0.746497L1.29528 2.95097C0.837603 3.20541 0.555664 3.67564 0.555664 4.18453V8.59346C0.555664 9.10235 0.837603 9.57258 1.29528 9.82703L5.2605 12.0315C5.71817 12.2859 6.28205 12.2859 6.73972 12.0315L10.7049 9.82703C11.1626 9.57258 11.4446 9.10235 11.4446 8.59347V6.389M11.203 3.40446C11.358 3.63254 11.4446 3.9026 11.4446 4.18453V6.389M11.203 3.40446L6.47256 6.25325M11.4446 6.389L6.73972 9.10205"
+                stroke="" stroke-linecap="round" stroke-linejoin="round" />
+            </svg>Button
+          </button>
+          <button class="btn btn_warning plain btn_md rounded">
+            <svg width="12" height="13" viewBox="0 0 12 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path
+                d="M11.203 3.40446C11.0782 3.22085 10.9091 3.06445 10.7049 2.95097L6.73972 0.746497C6.28205 0.492053 5.71817 0.492053 5.2605 0.746497L1.29528 2.95097C0.837603 3.20541 0.555664 3.67564 0.555664 4.18453V8.59346C0.555664 9.10235 0.837603 9.57258 1.29528 9.82703L5.2605 12.0315C5.71817 12.2859 6.28205 12.2859 6.73972 12.0315L10.7049 9.82703C11.1626 9.57258 11.4446 9.10235 11.4446 8.59347V6.389M11.203 3.40446C11.358 3.63254 11.4446 3.9026 11.4446 4.18453V6.389M11.203 3.40446L6.47256 6.25325M11.4446 6.389L6.73972 9.10205"
+                stroke="" stroke-linecap="round" stroke-linejoin="round" />
+            </svg>Button
+          </button>
+        </div>
+        <div style="display: flex; flex-direction: row; flex: 1 1 auto">
+          <button class="btn btn_warning plain btn_sm">
+            Button<svg width="12" height="13" viewBox="0 0 12 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path
+                d="M11.203 3.40446C11.0782 3.22085 10.9091 3.06445 10.7049 2.95097L6.73972 0.746497C6.28205 0.492053 5.71817 0.492053 5.2605 0.746497L1.29528 2.95097C0.837603 3.20541 0.555664 3.67564 0.555664 4.18453V8.59346C0.555664 9.10235 0.837603 9.57258 1.29528 9.82703L5.2605 12.0315C5.71817 12.2859 6.28205 12.2859 6.73972 12.0315L10.7049 9.82703C11.1626 9.57258 11.4446 9.10235 11.4446 8.59347V6.389M11.203 3.40446C11.358 3.63254 11.4446 3.9026 11.4446 4.18453V6.389M11.203 3.40446L6.47256 6.25325M11.4446 6.389L6.73972 9.10205"
+                stroke="" stroke-linecap="round" stroke-linejoin="round" />
+            </svg>
+          </button>
+          <button class="btn btn_warning plain btn_sm rounded">
+            Button
+            <svg width="12" height="13" viewBox="0 0 12 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path
+                d="M11.203 3.40446C11.0782 3.22085 10.9091 3.06445 10.7049 2.95097L6.73972 0.746497C6.28205 0.492053 5.71817 0.492053 5.2605 0.746497L1.29528 2.95097C0.837603 3.20541 0.555664 3.67564 0.555664 4.18453V8.59346C0.555664 9.10235 0.837603 9.57258 1.29528 9.82703L5.2605 12.0315C5.71817 12.2859 6.28205 12.2859 6.73972 12.0315L10.7049 9.82703C11.1626 9.57258 11.4446 9.10235 11.4446 8.59347V6.389M11.203 3.40446C11.358 3.63254 11.4446 3.9026 11.4446 4.18453V6.389M11.203 3.40446L6.47256 6.25325M11.4446 6.389L6.73972 9.10205"
+                stroke="" stroke-linecap="round" stroke-linejoin="round" />
+            </svg>
+          </button>
+        </div>
+
+        <div style="display: flex; flex-direction: row; flex: 1 1 auto">
+          <button class="btn btn_warning plain btn_mini">Button</button>
+          <button class="btn btn_warning plain btn_mini rounded">
+            Button
+          </button>
+        </div>
+      </div>
+      <!-- END -->
+
+      <!-- BEGIN -->
+      <div class="br"></div>
+      <div class="f-col">
+        <div style="display: flex; flex-direction: row; flex: 1 1 auto">
+          <button class="btn btn_danger plain btn_lg">Button</button>
+          <button class="btn btn_danger plain btn_lg rounded">Button</button>
+        </div>
+        <div style="display: flex; flex-direction: row; flex: 1 1 auto">
+          <button class="btn btn_danger plain btn_md">
+            <svg width="12" height="13" viewBox="0 0 12 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path
+                d="M11.203 3.40446C11.0782 3.22085 10.9091 3.06445 10.7049 2.95097L6.73972 0.746497C6.28205 0.492053 5.71817 0.492053 5.2605 0.746497L1.29528 2.95097C0.837603 3.20541 0.555664 3.67564 0.555664 4.18453V8.59346C0.555664 9.10235 0.837603 9.57258 1.29528 9.82703L5.2605 12.0315C5.71817 12.2859 6.28205 12.2859 6.73972 12.0315L10.7049 9.82703C11.1626 9.57258 11.4446 9.10235 11.4446 8.59347V6.389M11.203 3.40446C11.358 3.63254 11.4446 3.9026 11.4446 4.18453V6.389M11.203 3.40446L6.47256 6.25325M11.4446 6.389L6.73972 9.10205"
+                stroke="" stroke-linecap="round" stroke-linejoin="round" />
+            </svg>Button
+          </button>
+          <button class="btn btn_danger plain btn_md rounded">
+            <svg width="12" height="13" viewBox="0 0 12 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path
+                d="M11.203 3.40446C11.0782 3.22085 10.9091 3.06445 10.7049 2.95097L6.73972 0.746497C6.28205 0.492053 5.71817 0.492053 5.2605 0.746497L1.29528 2.95097C0.837603 3.20541 0.555664 3.67564 0.555664 4.18453V8.59346C0.555664 9.10235 0.837603 9.57258 1.29528 9.82703L5.2605 12.0315C5.71817 12.2859 6.28205 12.2859 6.73972 12.0315L10.7049 9.82703C11.1626 9.57258 11.4446 9.10235 11.4446 8.59347V6.389M11.203 3.40446C11.358 3.63254 11.4446 3.9026 11.4446 4.18453V6.389M11.203 3.40446L6.47256 6.25325M11.4446 6.389L6.73972 9.10205"
+                stroke="" stroke-linecap="round" stroke-linejoin="round" />
+            </svg>Button
+          </button>
+        </div>
+        <div style="display: flex; flex-direction: row; flex: 1 1 auto">
+          <button class="btn btn_danger plain btn_sm">
+            Button<svg width="12" height="13" viewBox="0 0 12 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path
+                d="M11.203 3.40446C11.0782 3.22085 10.9091 3.06445 10.7049 2.95097L6.73972 0.746497C6.28205 0.492053 5.71817 0.492053 5.2605 0.746497L1.29528 2.95097C0.837603 3.20541 0.555664 3.67564 0.555664 4.18453V8.59346C0.555664 9.10235 0.837603 9.57258 1.29528 9.82703L5.2605 12.0315C5.71817 12.2859 6.28205 12.2859 6.73972 12.0315L10.7049 9.82703C11.1626 9.57258 11.4446 9.10235 11.4446 8.59347V6.389M11.203 3.40446C11.358 3.63254 11.4446 3.9026 11.4446 4.18453V6.389M11.203 3.40446L6.47256 6.25325M11.4446 6.389L6.73972 9.10205"
+                stroke="" stroke-linecap="round" stroke-linejoin="round" />
+            </svg>
+          </button>
+          <button class="btn btn_danger plain btn_sm rounded">
+            Button
+            <svg width="12" height="13" viewBox="0 0 12 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path
+                d="M11.203 3.40446C11.0782 3.22085 10.9091 3.06445 10.7049 2.95097L6.73972 0.746497C6.28205 0.492053 5.71817 0.492053 5.2605 0.746497L1.29528 2.95097C0.837603 3.20541 0.555664 3.67564 0.555664 4.18453V8.59346C0.555664 9.10235 0.837603 9.57258 1.29528 9.82703L5.2605 12.0315C5.71817 12.2859 6.28205 12.2859 6.73972 12.0315L10.7049 9.82703C11.1626 9.57258 11.4446 9.10235 11.4446 8.59347V6.389M11.203 3.40446C11.358 3.63254 11.4446 3.9026 11.4446 4.18453V6.389M11.203 3.40446L6.47256 6.25325M11.4446 6.389L6.73972 9.10205"
+                stroke="" stroke-linecap="round" stroke-linejoin="round" />
+            </svg>
+          </button>
+        </div>
+
+        <div style="display: flex; flex-direction: row; flex: 1 1 auto">
+          <button class="btn btn_danger plain btn_mini">Button</button>
+          <button class="btn btn_danger plain btn_mini rounded">
+            Button
+          </button>
+        </div>
+      </div>
+      <!-- END -->
+    </div>
+  </div>
 </body>
 
 </html>

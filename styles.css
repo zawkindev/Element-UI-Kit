@@ -1,20 +1,28 @@
 :root {
   --neutral-color: #606266;
+  --neutral-border-color: #dcdfe6;
   --primary-400: #3a8ee6;
   --primary-300: #409eff;
   --primary-200: #66b1ff;
+  --primary-100: #ecf5ff;
   --success-400: #5daf34;
   --success-300: #67c23a;
   --success-200: #85ce61;
+  --success-100: #f0f9eb;
+
   --info-400: #82848a;
   --info-300: #909399;
   --info-200: #a6a9ad;
+  --info-100: #f4f4f5;
+
   --warning-400: #cf9236;
   --warning-300: #e6a23c;
   --warning-200: #ebb563;
+  --warning-100: #fdf6ec;
   --danger-400: #dc6161;
   --danger-300: #f56c6c;
   --danger-200: #f78989;
+  --danger-100: #fef0f0;
 }
 
 button {
@@ -209,7 +217,7 @@ button {
   background-color: var(--primary-400);
 }
 
-.btn_icon:hover {
+.btn.btn_icon:hover {
   background-color: var(--primary-200);
 }
 .btn_icon path,
@@ -229,5 +237,177 @@ button {
 }
 .btn_icon.btn_mini {
   padding: 8px;
+}
+/* END */
+
+.btn.plain {
+  border: 1px solid var(--neutral-border-color);
+  color: var(--neutral-color);
+  background-color: transparent;
+}
+.btn.plain svg path {
+  stroke: var(--neutral-color);
+}
+
+.btn.plain:hover svg path,
+.btn.plain:active svg path {
+  stroke: #fff;
+}
+
+.btn_default.plain:hover,
+.btn_default.plain:active {
+  color: var(--primary-400);
+  color: var(--primary-400);
+  background-color: var(--primary-100);
+}
+.btn_default.plain:hover,
+.btn_default.plain:hover svg path {
+  stroke: var(--primary-400);
+  border-color: var(--primary-400);
+}
+
+.btn_default.plain:active,
+.btn_default.plain:active svg path {
+  stroke: var(--primary-400);
+  border-color: var(--primary-400);
+}
+
+/* BEGIN */
+.btn_primary.plain {
+  background-color: var(--primary-100);
+  border-color: var(--primary-300);
+  color: var(--primary-300);
+}
+
+.btn_primary.plain svg path {
+  stroke: var(--primary-300);
+}
+
+.btn_primary.plain:hover,
+.btn_primary.plain:hover svg path {
+  stroke: #fff;
+  color: #fff;
+  border-color: var(--primary-300);
+  background-color: var(--primary-300);
+}
+
+.btn_primary.plain:active,
+.btn_primary.plain:active svg path {
+  stroke: #fff;
+  color: #fff;
+  border-color: var(--primary-400);
+  background-color: var(--primary-400);
+}
+/* END */
+
+/* BEGIN */
+.btn_success.plain {
+  background-color: var(--success-100);
+  border-color: var(--success-300);
+  color: var(--success-300);
+}
+
+.btn_success.plain svg path {
+  stroke: var(--success-300);
+}
+
+.btn_success.plain:hover,
+.btn_success.plain:hover svg path {
+  stroke: #fff;
+  color: #fff;
+  border-color: var(--success-300);
+  background-color: var(--success-300);
+}
+
+.btn_success.plain:active,
+.btn_success.plain:active svg path {
+  stroke: #fff;
+  color: #fff;
+  border-color: var(--success-400);
+  background-color: var(--success-400);
+}
+/* END */
+
+/* BEGIN */
+.btn_info.plain {
+  background-color: var(--info-100);
+  border-color: var(--info-300);
+  color: var(--info-300);
+}
+
+.btn_info.plain svg path {
+  stroke: var(--info-300);
+}
+
+.btn_info.plain:hover,
+.btn_info.plain:hover svg path {
+  stroke: #fff;
+  color: #fff;
+  border-color: var(--info-300);
+  background-color: var(--info-300);
+}
+
+.btn_info.plain:active,
+.btn_info.plain:active svg path {
+  stroke: #fff;
+  color: #fff;
+  border-color: var(--info-400);
+  background-color: var(--info-400);
+}
+/* END */
+
+/* BEGIN */
+.btn_warning.plain {
+  background-color: var(--warning-100);
+  border-color: var(--warning-300);
+  color: var(--warning-300);
+}
+
+.btn_warning.plain svg path {
+  stroke: var(--warning-300);
+}
+
+.btn_warning.plain:hover,
+.btn_warning.plain:hover svg path {
+  stroke: #fff;
+  color: #fff;
+  border-color: var(--warning-300);
+  background-color: var(--warning-300);
+}
+
+.btn_warning.plain:active,
+.btn_warning.plain:active svg path {
+  stroke: #fff;
+  color: #fff;
+  border-color: var(--warning-400);
+  background-color: var(--warning-400);
+}
+/* END */
+
+/* BEGIN */
+.btn_danger.plain {
+  background-color: var(--danger-100);
+  border-color: var(--danger-300);
+  color: var(--danger-300);
+}
+
+.btn_danger.plain svg path {
+  stroke: var(--danger-300);
+}
+
+.btn_danger.plain:hover,
+.btn_danger.plain:hover svg path {
+  stroke: #fff;
+  color: #fff;
+  border-color: var(--danger-300);
+  background-color: var(--danger-300);
+}
+
+.btn_danger.plain:active,
+.btn_danger.plain:active svg path {
+  stroke: #fff;
+  color: #fff;
+  border-color: var(--danger-400);
+  background-color: var(--danger-400);
 }
 /* END */
