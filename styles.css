@@ -9,12 +9,12 @@
   --info-400: #82848a;
   --info-300: #909399;
   --info-200: #a6a9ad;
-  --warning-400: #CF9236;
-  --warning-300: #E6A23C;
-  --warning-200: #EBB563;
-  --danger-400: #DC6161;
-  --danger-300: #F56C6C;
-  --danger-200: #F78989;
+  --warning-400: #cf9236;
+  --warning-300: #e6a23c;
+  --warning-200: #ebb563;
+  --danger-400: #dc6161;
+  --danger-300: #f56c6c;
+  --danger-200: #f78989;
 }
 
 button {
@@ -36,6 +36,11 @@ button {
   justify-content: center;
   align-items: center;
   color: #fff;
+  margin: 4px;
+}
+
+.btn:hover {
+  cursor: pointer;
 }
 
 .rounded {
@@ -59,7 +64,8 @@ button {
   stroke: var(--neutral-color);
 }
 
-.btn_default:hover svg path {
+.btn_default:hover svg path,
+.btn_default:active svg path {
   stroke: var(--primary-300);
 }
 
@@ -156,8 +162,6 @@ button {
 }
 /* END */
 
-
-
 /* BEGIN */
 .btn_warning {
   background-color: var(--warning-300);
@@ -176,7 +180,6 @@ button {
   stroke: #fff;
 }
 /* END */
-
 
 /* BEGIN */
 .btn_danger {
@@ -215,16 +218,16 @@ button {
   stroke: #fff;
 }
 
-.btn_icon.btn_lg{
+.btn_icon.btn_lg {
   padding: 13px;
 }
-.btn_icon.btn_md{
+.btn_icon.btn_md {
   padding: 11px;
 }
-.btn_icon.btn_sm{
+.btn_icon.btn_sm {
   padding: 10px;
 }
-.btn_icon.btn_mini{
+.btn_icon.btn_mini {
   padding: 8px;
 }
 /* END */
