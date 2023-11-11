@@ -1,0 +1,52 @@
+:root {
+  --disabled-bg: #f5f7fa;
+  --neutral-color: #e4e7ed;
+  --neutral-color-text: #606266;
+  --place-holder-color: #c0c4cc;
+  --primary-300: #409eff;
+  --red-300: #F56C6C;
+}
+.input {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 22px;
+  border-radius: 4px;
+  letter-spacing: 0px;
+  width: 228px;
+  outline: none;
+  text-align: left;
+  font-family: Noto Sans SC;
+  border: 1px solid var(--neutral-color);
+  color: var(--neutral-color-text);
+}
+.input::placeholder {
+  color: var(--place-holder-color);
+}
+
+.input:focus {
+  border-color: var(--primary-300);
+}
+
+.input:disabled {
+  background-color: var(--disabled-bg);
+}
+
+.input:invalid{
+  border-color: var(--red-300);
+}
+
+.input.lg {
+  padding: 9px 12px;
+}
+
+.input.md {
+  padding: 7px 12px;
+}
+
+.input.sm {
+  padding: 5px 12px;
+}
+
+.input.mini {
+  padding: 3px 12px;
+}
